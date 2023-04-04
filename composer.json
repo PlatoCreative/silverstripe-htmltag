@@ -1,5 +1,5 @@
 {
-  "name": "gorriecoe/silverstripe-htmltag",
+  "name": "plato-creative/silverstripe-htmltag",
   "description": "Provides a simply method for wrapping strings with html tags.",
   "type": "silverstripe-vendormodule",
   "license": "BSD-3-Clause",
@@ -7,6 +7,10 @@
     {
       "name": "Gorrie Coe",
       "email": "gorriecoe@gmail.com"
+    },
+    {
+      "name": "Plato Creative",
+      "email": "web@platocreative.co.nz"
     }
   ],
   "keywords": [
@@ -15,10 +19,16 @@
     "templates",
     "markup"
   ],
-  "homepage": "http://github.com/gorriecoe/silverstripe-htmltag",
+  "homepage": "http://github.com/PlatoCreative/silverstripe-htmltag",
   "require": {
     "silverstripe/framework": "^4"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/PlatoCreative/silverstripe-htmltag"
+    }
+  ],
   "extra": {
     "installer-name": "htmltag"
   }
